@@ -1,0 +1,26 @@
+Pep8This.vim
+============
+
+"""
+Installation
+"""
+Use your favourite Plugin manager or download source
+
+The Github repository can be found at andrewseaman35/pep8this.vim
+
+"""
+Usage
+"""
+This plugin helps you quickly make formatting changes to abide by PEP8.
+It allows you to view the output of PEP8 and navigate to the necessary
+line without having to manually rerun PEP8 and switch between windows.
+
+"""
+Default Mappings
+"""
+`<leader>p` Start editing a .py file
+
+`<leader>n` In PEP8 window: select an infraction to navigate to
+            In .py window: save and go to next infraction
+
+`<leader><Esc>` Stop editing the document
